@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Project Assignment </title>
+        <link rel="stylesheet" type="text/css" href="CBproject.css" title="style" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1 onclick="reset()">O-Arcade <div>The place to play all your of your favourite games...</div></h1>
+            <p id="descriptionTitle">Welcome to O-Arcade!</p>
+            <p><b>Please choose the game mode you would like to play today:</b></p>
+            <div id="theButtons">
+                <button id="GTNbutton">Guess the number</button><!--button 0-->
+                <button id="NMbutton">Number Memory</button><!--button 1-->
+                <button id="SMbutton">Slot Machine</button><!--button 2-->
+            </div>
+        </header>
+        <div class="body">
+            <div id="gameComp">
+                <p id="title"></p>
+                <p id="introduction"> </p>
+
+                <div class="input">
+                    <button input="button" onclick="checkIfEqual()"><b>Ready to guess</b></button><!--button 3-->
+                </div>
+                
+                <p id="output"></p>
+                <p id="slotOutput"></p>
+
+                <nav class="strong">
+                    <button input="button" onclick="ReadytoSubmit()"><b>Add to leaderboard</b></button><!--button 4-->
+                    <p></p>
+                    <button input="button" onclick="PlayAgain()" id="playAgain"><b>Play Again</b></button><!--button 5-->
+                </nav>
+                <br>
+                <div id="slotwork">
+                    <button input='button' onclick="checkIfSame()" id="slotbutton"><b>Spin</b></button><!--button 6-->
+                </div>
+            </div>
+            
+            <div id="leaderboard">
+                <p>Leaderboard</p>
+                <div id="bodyL">
+                    <div class="Nleaderboard">
+                        Name:
+                        <p id="NfL"></p><!--number for leaderboard-->
+                    </div>
+                    <div class="Sleaderboard">
+                        Score:
+                        <p id="SfL"></p><!--score for leaderboard-->
+                    </div>
+                </div>
+            </div>  
+
+        </div>
+        <script src="CBproject-client.js" rel="stylesheet" type="text/javascript"></script>
+        <footer>Copyright &#169; 2023 Code Busters. All rights reserved.<br> Sponsered by YorkU</footer>
+    </body>
+</html>

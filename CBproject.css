@@ -1,0 +1,101 @@
+body{
+    font-family: Courier New;
+}
+header h1 {
+    background: black;
+    color: rgb(214, 211, 211);
+    font-size: 50px;
+    padding: 20px;
+    margin: -8px;
+
+}
+header h1 div {
+    font-size: small;
+    display:inline;
+}
+header p{
+    background:rgb(201, 201, 201);
+    margin: -8px;
+    padding: 20px;
+}
+#descriptionTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#theButtons {
+    background-color: rgb(239, 239, 239);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 20px;
+    text-align: center;
+}
+#theButtons button {
+    margin: 20px;
+    padding: 20px;
+    font-Size: 20px;
+    font-family: Cursive;
+}
+
+.input button {
+    visibility: hidden;
+
+}
+header button {
+    font-size: medium;
+}
+.body {
+    display:grid;
+    grid-template-columns: 75% 25%;
+}
+#gameComp {
+    /*border: 1px black solid;*/
+    padding: 5px;
+    text-align: center;
+    /*border: 1px green solid;*/
+    margin: 2px;    
+}
+#leaderboard {
+    /*border: 1px red solid;*/
+    text-align: center;
+    margin: 2px;
+    /*border: 1px solid black;*/
+    visibility: hidden;
+}
+#bodyL{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    /*border: thin dashed #000000;*/
+    margin: 2px;
+    padding: 5px;
+    
+}
+#title {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.strong button {
+    visibility: hidden;
+}
+footer {
+    margin-top: 220px;
+    padding: 10px;
+    background: rgb(224, 224, 224);
+    font-size: small;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.small{
+    margin: 20px;
+    padding: 20px;
+    font-Size: 10px;
+    font-family: Cursive;
+}
+#slotwork{
+    visibility:hidden;
+}
+#slotOutput{
+    visibility:hidden;
+    font-size: x-large;
+}
