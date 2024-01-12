@@ -9,8 +9,8 @@ As the site is still in the production stage, with the current games currently p
 
 How to Run the Server:
 - When the files are downloaded, open your computer's terminal, and direct your terminal to the folder with those said files. To run the server type into the terminal
-``bash 
+```bash 
 node CBproject-server.js
-``
+```
 - Doing so will allow you to run the site's server, and you can begin saving the data without having to keep your site open.
 - To begin playing, simply open the HTML file, and enjoy.
